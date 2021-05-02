@@ -1,31 +1,47 @@
-
-
 body {
-  background-image: url("img/rolling-dices.png");
+  background-image: url("pencil-ruler.png");
   background-repeat: repeat;
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
-img {
-  width: 4vw;
-  height: 4vw;
+/* styling for main div containing all the content */
+#container {
+  background-color: #fff;
+  padding: 1vw;
+  border-radius: 1vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 5vw;
+  width: 50%;
 }
 
 div {
-  background-color: #fff;
   padding: 1vw;
-  border-radius: 1vw 1vw 0vw 0vw; 
-  text-align: center;
-	margin: auto;
-  margin-top: 5vw;
-	width: 50%;
-  border-bottom: dashed;
-  padding: 2vw;
 }
-
 
 h1 {
-   font-size: 5vw;
+  font-size: 5vw;
+}
+
+
+/* footer CSS */
+
+#footer {
+	margin: 0;
+	width: 100vw;
+	background-color: #000;
+	color: white;
+	text-align: center;
+  position:fixed;
+  bottom:0;
+}
+
+#footer p {
+	margin: 0;
+	padding: 1vw;
 
 }
 
+#footer a {
+	color: white;
+}
