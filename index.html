@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- meta tags and title -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Length Conversion</title>
+
+	<!-- external and internal CSS -->
+	<link rel="stylesheet" href="styles.css" media="all">
+	<style>
+		/* in-file CSS here */
+	</style>
+
+
+</head>
+
+<body>
+  
+  <div>
+    
+  <h1>Length Conversion</h1>
+  
+<form action="convert.php" method="get">
+<input type="number" step = "0.01" name="number" required>
+  <select id="preConvert" name="preConvert">
+    <option value="millimeters">Millimeters</option>
+    <option value="centimeters">Centimeters</option>
+    <option value="meters">Meters</option>
+    <option value="kilometers">Kilometers</option>
+    <option value="inches">Inches</option>
+    <option value="feet">Feet</option>
+    <option value="yards">Yards</option>
+    <option value="miles">Miles</option>
+  </select>
+  <label for="postConvert">Convert to:</label>
+  <select id="postConvert" name="postConvert">
+    <option value="centimeters">Centimeters</option>
+    <option value="meters">Meters</option>
+    <option value="kilometers">Kilometers</option>
+    <option value="inches">Inches</option>
+    <option value="feet">Feet</option>
+    <option value="yards">Yards</option>
+    <option value="miles">Miles</option>
+    <option value="millimeters">Millimeters</option>
+  </select>
+<input type="submit" value="Convert">
+</form>
+    
+      </div>
+  
+
+</body>
+
+</html>

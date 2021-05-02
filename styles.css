@@ -1,0 +1,31 @@
+
+
+body {
+  background-image: url("img/rolling-dices.png");
+  background-repeat: repeat;
+    font-family: sans-serif;
+}
+
+img {
+  width: 4vw;
+  height: 4vw;
+}
+
+div {
+  background-color: #fff;
+  padding: 1vw;
+  border-radius: 1vw 1vw 0vw 0vw; 
+  text-align: center;
+	margin: auto;
+  margin-top: 5vw;
+	width: 50%;
+  border-bottom: dashed;
+  padding: 2vw;
+}
+
+
+h1 {
+   font-size: 5vw;
+
+}
+
